@@ -1,0 +1,14 @@
+{% extends 'calc/base.html' %}
+{% load static %}
+{% block content %}
+	<div class="top_content container-fluid">
+		<h2 id="heading">A PLACE TO <span class="mappingText border-bottom">SHARE</span></h2>
+		<h5 id="subtext">Greet those ones with high spirit</h5>
+	</div>
+	<div class="bottom_content container-fluid">
+		<button type="button" id="get_started" class="btn btn-light">Get Started!</button>
+	</div>	
+
+	<script type="text/javascript" src="{% static 'calc/js/home.js'%}"></script>
+
+{% endblock %}

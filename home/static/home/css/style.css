@@ -1,0 +1,123 @@
+/*Using em */
+/*colors : #99b2ddff
+colors: #8d80adff*/
+:root {
+	--bg-color : #99b2ddff;
+}
+
+body {
+	/*padding: 1em;*/
+	background-color: var(--bg-color);
+}
+
+nav {
+	padding: 0 3em 0;
+	font-family: Gordita;
+	font-size: 0.8em;
+}
+
+nav ul li:hover {
+	text-decoration: underline;
+}
+
+header {
+	background-color: #8d80adff;
+}
+
+.logo {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#signUp_btn{
+	font-size: 0.9em;
+	padding: 0.5em 1em 0.5em;
+	background-color: #3c24783b;
+	background-color: ;
+	color: white;
+	border: none;
+	border-radius: 0.5em;
+}
+
+#signUp_btn:hover {
+	background-color: #3c24788d;
+	text-decoration: underline;
+}
+
+#login_btn {
+	font-size: 0.9em;
+	padding: 0.5em 1.5em 0.5em;
+	background-color: white;
+	color: #8d80adff;
+	border: none;
+	border-radius: 0.5em;
+}
+
+#login_btn:hover {
+	text-decoration: underline;
+}
+
+#get_started {
+	padding-top: 10em;
+	font-family: Gordita;
+	font-size: 1em;
+	padding: 0.5em 1.5em 0.5em;
+	color: #8d80adff;
+}
+
+#get_started:hover {
+	text-decoration: underline;
+}
+
+.top_content {
+	padding-top: 13em;
+	background-color: #8d80adff;
+	padding-bottom: 1em;
+}
+
+.bottom_content {
+	padding: 3em 0 5em;
+}
+
+.content {
+	text-align: center;
+	color: white;
+}
+
+#heading {
+	font-size: 3.2em;
+	font-family: "Open Sans";
+	font-weight: bold;
+}
+
+#subtext {
+	font-size: 1.2em;
+	font-family: "Open Sans";
+	font-weight: normal;
+	padding-top: 1em;
+	margin-bottom: 6em;
+}
+
+
+/*Custom scrollbar*/
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
