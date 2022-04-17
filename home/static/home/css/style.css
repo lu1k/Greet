@@ -2,7 +2,8 @@
 /*colors : #99b2ddff
 colors: #8d80adff*/
 :root {
-	--bg-color : #99b2ddff;
+	--bg-color : #edededff;
+	--primary-color:  #fe5d26ff;
 }
 
 body {
@@ -14,6 +15,7 @@ nav {
 	padding: 0 3em 0;
 	font-family: Gordita;
 	font-size: 0.8em;
+	box-shadow: 5px -1px 22.2px #1a1a1a1a;
 }
 
 nav ul li:hover {
@@ -21,36 +23,36 @@ nav ul li:hover {
 }
 
 header {
-	background-color: #8d80adff;
+	background-color: var(--bg-color);
 }
 
 .logo {
 	font-size: 1.2em;
 	font-weight: bold;
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 #signUp_btn{
 	font-size: 0.9em;
 	padding: 0.5em 1em 0.5em;
-	background-color: #3c24783b;
+	background-color: #fe5d264c;
 	background-color: ;
-	color: white;
+	color: whitesmoke;
 	border: none;
 	border-radius: 0.5em;
 }
 
 #signUp_btn:hover {
-	background-color: #3c24788d;
+	background-color: #fe5d26b4;
 	text-decoration: underline;
 }
 
 #login_btn {
 	font-size: 0.9em;
 	padding: 0.5em 1.5em 0.5em;
-	background-color: white;
-	color: #8d80adff;
+	background-color: var(--primary-color);
+	color: var(--bg-color);
 	border: none;
 	border-radius: 0.5em;
 }
@@ -73,7 +75,7 @@ header {
 
 .top_content {
 	padding-top: 13em;
-	background-color: #8d80adff;
+	background-color: var(--bg-color);
 	padding-bottom: 1em;
 }
 
@@ -83,7 +85,7 @@ header {
 
 .content {
 	text-align: center;
-	color: white;
+	color: black;
 }
 
 #heading {

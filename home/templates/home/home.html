@@ -1,5 +1,9 @@
-{% extends 'calc/base.html' %}
-{% load static %}
+{% extends 'home/base.html' %}
+<!-- {% load static %} -->
+{% block title %}
+	Home - Greet
+{% endblock title %}
+
 {% block content %}
 	<div class="top_content container-fluid">
 		<h2 id="heading">A PLACE TO <span class="mappingText border-bottom">SHARE</span></h2>
@@ -9,6 +13,5 @@
 		<button type="button" id="get_started" class="btn btn-light">Get Started!</button>
 	</div>	
 
-	<script type="text/javascript" src="{% static 'calc/js/home.js'%}"></script>
-
+	<script type="text/javascript" src="{% static 'home/js/home.js'%}"></script>
 {% endblock %}
